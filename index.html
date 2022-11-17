@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+</head>
+
+<script>
+    // let bilangan1 = prompt("Masukkan Bilangan 1");
+    // let bilangan2 = prompt("Masukkan Bilangan 2");
+    // let hasil = 0;
+
+    // document.write("Bilangan 1 adalah " + bilangan1 + "<br>");
+    // document.write("Bilangan 2 adalah " + bilangan2 + "<br>");
+
+    // hasil = parseFloat(bilangan1) + parseFloat(bilangan2);
+    // document.write("Hasil Penjumlahan adalah " + hasil + "<br>");
+    alert("Program Ganjil Genap");
+
+    let bil = prompt("Masukkan angka : ");
+
+    if(bil%2==0){
+        alert("Bilangan " + bil + " adalah bilangan Genap");
+    }
+    else {
+        alert("Bilangan " + bil + " adalah bilangan Ganjil");
+    }
+
+
+    alert("Program Validasi Email");
+
+    let email = prompt("Masukkan alamat email : ");
+    let valid = email.indexOf("@");
+
+    if(valid < 1) {
+        alert("Harus menggunakan karakter @ atau email tidak valid");
+    }
+    else {
+        alert("Email anda " + email + " VALID " );
+    }
+
+
+</script>
+
+<body>
+
+
+</body>
+</html>
